@@ -60,7 +60,7 @@ async function changeHeaderText() {
 
 async function changeSlides() {
   while (true) {
-    slide.style.background = `url(/images/pic/pic${
+    slide.style.background = `url(images/pic/pic${
       1 + slideIndex
     }.jpg) no-repeat center center`;
     slide.style.backgroundSize = "cover";
